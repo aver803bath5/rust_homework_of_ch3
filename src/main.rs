@@ -73,6 +73,7 @@ fn the_twelve_days_of_chrismas() {
         if i == 0 {
             println!("{}", new_lines[i]);
         } else {
+            // Insert lyrics from the begigging of the lyrics string
             lyrics.insert_str(0, new_lines[i]);
             println!("{}", lyrics);
         }
